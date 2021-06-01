@@ -64,7 +64,7 @@ fn main()
 		3 => println!("three"),
 		4 => println!("four"),
 		5 => println!("five"),
-		_(x) => println!("{}", x)
+		_ => println!("{}", x)
 	};
 
 
